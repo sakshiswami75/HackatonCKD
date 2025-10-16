@@ -1,0 +1,66 @@
+# ==============================
+# 🌐 CLIENT (React)
+# ==============================
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+Client/node_modules/
+Client/dist/
+Client/dist-ssr/
+Client/build/
+
+# Environment files
+Client/.env
+Client/.env.local
+Client/.env.development
+Client/.env.production
+
+# Editor files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==============================
+# ⚙️ SERVER (Backend)
+# ==============================
+
+# Node modules
+server/node_modules/
+
+# Environment variables
+server/.env
+
+# Firebase credentials (Sensitive!)
+server/config/serviceAccountKey.json
+
+# Logs
+server/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+server/dist/
+server/build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
